@@ -8,7 +8,7 @@
 (show-paren-mode t)
 (setq-default indent-tabs-mode nil)
 
-(add-to-list 'load-path "~/.emacs.d")
+(add-to-list 'load-path "~/.emacs.d/lib")
 (require 'grep-buffers)
 
 ;; Get rid of the node garbage characters
