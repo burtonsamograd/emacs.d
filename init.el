@@ -7,6 +7,7 @@
 (global-set-key "\M-'" 'lisp-complete-symbol)
 (show-paren-mode t)
 (setq-default indent-tabs-mode nil)
+(setq inhibit-startup-screen t)
 
 (add-to-list 'load-path "~/.emacs.d/lib")
 (require 'grep-buffers)
