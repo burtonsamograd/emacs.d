@@ -3,6 +3,7 @@
 (scroll-bar-mode 0)
 
 (global-set-key "\M-;" 'other-window)
+(show-paren-mode t)
 
 (add-to-list 'load-path "~/.emacs.d")
 (require 'grep-buffers)
