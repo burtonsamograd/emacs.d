@@ -13,6 +13,7 @@
 (require 'grep-buffers)
 
 ;; Get rid of the node garbage characters
+(require 'shell)
 (setq ansi-color-drop-regexp
       "\033\\[\\([ABCDsuK]\\|[12][JK]\\|=[0-9]+[hI]\\|[0-9;]*[Hf]\\|\\?[0-9]+[hl]\\|[0-9][GJ]\\)")
 
