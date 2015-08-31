@@ -18,5 +18,5 @@
       "\033\\[\\([ABCDsuK]\\|[12][JK]\\|=[0-9]+[hI]\\|[0-9;]*[Hf]\\|\\?[0-9]+[hl]\\|[0-9][GJ]\\)")
 
 (custom-set-faces
- `(default ((t (:family "DejaVu Sans Mono" :foundry "unknown" :slant normal :weight normal :height ,(if (string= system-name "burton-ThinkPad-X300-2") 120 83) :width normal)))))
+ `(default ((t (:family "DejaVu Sans Mono" :foundry "unknown" :slant normal :weight bold :height ,(if (string= system-name "burton-ThinkPad-X300-2") 109 83) :width normal)))))
 
